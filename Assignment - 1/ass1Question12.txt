@@ -7,4 +7,4 @@ return 0;
 }
 
 
-ans= ineuron7
+Ans= ineuron7
