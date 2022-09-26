@@ -1,8 +1,9 @@
-//8. Write a program to check whether the given number is even or odd using a bitwise operator.
+/*4. Write a program to check whether a given number is 
+an even number or an odd number without using % operator.*/
 #include<stdio.h>
 int main()
 {
-    int a;
+    int a,x;
 
     printf("Enter the number : ");
     scanf("%d",&a);
