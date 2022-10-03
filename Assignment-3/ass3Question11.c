@@ -6,7 +6,7 @@
 int main()
 {
     int s1,s2,s3,s4,s5;
-    
+    float av;
      printf("\nEnter the marks of the subject out of 100\n");
 
     printf("\nEnter the marks of first subject : ");
@@ -24,10 +24,13 @@ int main()
    printf("\nEnter the marks of fifth subject : ");
     scanf("%d",&s5);
 
-    if(s1&&s2&&s3&&s4&&s5>=33)
-      printf("Candidate passed the exam");
+ 
+
+    if(s1>33 && s2>33 && s3>33 && s4>33)
+      printf("Candidate passed first subject");
     else
       printf("Candidate fail the exam");
+
       
 return 0;
 }
