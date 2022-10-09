@@ -1,2 +1,0 @@
-ss");
-        loss=cp-sp;
