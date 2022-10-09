@@ -6,22 +6,17 @@ int main()
 {
     int a,b,c;
 
-    printf("Enter the number : ");
-    scanf("%d",&a);
+    printf("Enter the number  : ");
+    scanf("%d%d%d",&a,&b,&c);
 
-    printf("Enter the number : ");
-    scanf("%d",&b);
-
-    printf("Enter the number : ");
-    scanf("%d",&c);
 
     if(a>=b&&a>=c)
-     printf("first number is the greater one ");
-
-    else if(b>=a&&b>=c)
-     printf("Second number is the greater one ");
-
-    else
-     printf("Third number is the greater one ");
+     printf(" %d ",a);
+    
+    else 
+     if(b>c)
+       printf("%d",b);
+     else
+       printf("%d",c);
 return 0;
 }
