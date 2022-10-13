@@ -2,15 +2,15 @@
 #include<stdio.h>
 int main()
 {
-    int i,n=1;
+    int i,n;
     printf("Enter no of times you want to display : ");
        scanf("%d",&i);
-    do
+       n=2*i;
+    
+    for(n=2*i;n<=i;n++)
     {
         if(n%2!=0)
           printf("%d \t",n);
-        else
-          n++;
-    }while(n<=i);
+    }
 return 0;
 }
