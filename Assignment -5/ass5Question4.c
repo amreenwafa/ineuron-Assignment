@@ -5,9 +5,8 @@ int main()
     int i,n;
     printf("Enter no of times you want to display : ");
        scanf("%d",&i);
-       n=2*i;
     
-    for(n=2*i;n<=i;n++)
+    for(n=1;n<=2*i;n++)
     {
         if(n%2!=0)
           printf("%d \t",n);
