@@ -2,12 +2,21 @@
 #include<stdio.h>
 int main()
 {
-    int n,i,x=1;
+    int n,i,c=0;
 
       printf("Enter the no to check : ");
       scanf("%d",&n);
     
-       if()
+       for(i=1;i<=n;i++)             //finding the factors of the number 
+       {
+          if(n%i==0)             //count increase when reminder will be zero
+          c++;                         
+       }
+
+       if(c==2)
+         printf("Prime");
+      else
+        printf("Not Prime");
    
 return 0;
-}
+}             
