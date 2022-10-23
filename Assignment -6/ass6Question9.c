@@ -7,12 +7,14 @@ int main()
       printf("Enter the number to check : ");
       scanf("%d%d",&n,&m);
     
-       for(i=1;i<=n && i<=m ;i++)             //finding the factors of the number 
+       for(i=1;i<=n/2 || i<=m/2 ;i++)             //finding the factors of the number 
        {
-          if(n%i==0 && m%i==0)
-                printf("\n factor of two number is=%d",i);    
-
-            lcm=lcm*i;                          
+          if(n%i==0 || m%i==0)
+          {
+            i= ((m/i)*(n/i));
+              printf("\n%d",i);
+          }         
+            lcm=lcm*i;                         
        }
         printf("\nLCM of two number is=%d",lcm);
       
