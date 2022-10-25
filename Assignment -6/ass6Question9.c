@@ -16,15 +16,14 @@ int main()
        {
         
           if(i%a==0 && i%b==0)
-         {
+          {
             lcm=i;
             break;
-         } 
-         else
-           i=i*(x+1);       
+           }
+            i=n*(++x);
                                    
        }
-        printf("\nLCM of two number is=%d",lcm);
-      
+       printf("\nLCM of two number is=%d",lcm);
+       
 return 0;
 }
