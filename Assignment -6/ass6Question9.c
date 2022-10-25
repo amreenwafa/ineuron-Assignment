@@ -15,12 +15,13 @@ int main()
        for(i=n;i>0;)             
        {
         
-          if(a%i==0 && b%i==0)
+          if(i%a==0 && i%b==0)
          {
             lcm=i;
             break;
-         }  
-            i=i*(x+1);       
+         } 
+         else
+           i=i*(x+1);       
                                    
        }
         printf("\nLCM of two number is=%d",lcm);
