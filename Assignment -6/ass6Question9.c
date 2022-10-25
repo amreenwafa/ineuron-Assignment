@@ -14,7 +14,7 @@ int main()
 
        for(i=n;i>0;)             
        {
-          if(a/i==0 && b/i==0)
+          if(a%i==0 && b%i==0)
             lcm=i;  
             i=i*(x+1);       
                                    
