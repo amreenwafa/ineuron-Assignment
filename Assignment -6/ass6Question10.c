@@ -7,9 +7,9 @@ int main()
       printf("Enter the number to check : ");
       scanf("%d",&n);
 
-      for(i=n;i<0;i++)
+      for(i=n;i<0;i=i/10)
       {
-        i=i/10;
+        
         c=i%10;
       }
       printf("\n%d",c);

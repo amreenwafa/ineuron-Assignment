@@ -2,19 +2,22 @@
 #include<stdio.h>
 int main()
 {
-    int n,m,i,lcm=1;
+    int a,b,i,x=1,n,lcm;
 
-      printf("Enter the number to check : ");
-      scanf("%d%d",&n,&m);
-    
-       for(i=1;i<=n/2 || i<=m/2 ;i++)             //finding the factors of the number 
+      printf("Enter the two number to check : "); 
+      scanf("%d%d",&a,&b);
+
+        if(a<b)
+           n=b;
+        else
+          n=a;
+
+       for(i=n;i>0;)             
        {
-          if(n%i==0 || m%i==0)
-          {
-            i= ((m/i)*(n/i));
-              printf("\n%d",i);
-          }         
-            lcm=lcm*i;                         
+          if(a/i==0 && b/i==0)
+            lcm=i;  
+            i=i*(x+1);       
+                                   
        }
         printf("\nLCM of two number is=%d",lcm);
       
