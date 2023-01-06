@@ -7,7 +7,7 @@ int main()
       printf("Enter the no of times you want to display : ");
       scanf("%d",&n);
 
-      for(i=0;i<=n;i++)//Loop for
+      for(i=0;i<=n;i++)//Loop for natural
       {
         x=x+i;
       }
