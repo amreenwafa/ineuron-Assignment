@@ -3,7 +3,7 @@
 int main()
 {
     int a=1;
-    while(a<=10)//loop for 
+    while(a<=10)//loop for natural number
     {
         printf("%d \t",a);
         a++;
