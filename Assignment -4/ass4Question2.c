@@ -3,7 +3,7 @@
 int main()
 {
     int a=1;
-    while(a<=10)//loop
+    while(a<=10)//loop for 
     {
         printf("%d \t",a);
         a++;
