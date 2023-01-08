@@ -4,7 +4,7 @@
 int main()
 {
     int a=20;
-    while(a>=1)//loop for 
+    while(a>=1)//loop for reverse 
     {
         if(a%2==0)
         printf("%d \t ",a);
