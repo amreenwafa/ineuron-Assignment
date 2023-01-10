@@ -18,7 +18,7 @@ int main()
      scanf("%d",&c);
 
 
-  x= (b*b)-4*(a*c)
+  x= (b*b)-4*(a*c);
 
   if(x>0)
      printf("\n Real and distinct roots");
