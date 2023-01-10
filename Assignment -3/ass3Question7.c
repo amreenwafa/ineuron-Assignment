@@ -15,7 +15,7 @@ int main()
      scanf("%d",&b);
 
     printf("\n Enter the value of c = ");
-     scanf("%d",&c)
+     scanf("%d",&c);
 
 
   x= (b*b)-4*(a*c);
