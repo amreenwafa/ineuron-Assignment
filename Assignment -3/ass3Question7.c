@@ -25,7 +25,7 @@ int main()
   else if(x==0)
       printf("\n Real and equal roots");
   else
-       printf("\n Equation is imaginary roots");
+       printf("\n Equation is imaginary roots")
 return 0;
 }
 
