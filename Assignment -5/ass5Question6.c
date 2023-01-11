@@ -1,8 +1,6 @@
 //6. Write a program to print the first N even natural numbers
 #include<stdio.h>
-int main()
-{
-    int n,i;
+int m
     printf("Enter no of times you want to display : ");
        scanf("%d",&n);
     for(i=1;i<=2*n;i++)
