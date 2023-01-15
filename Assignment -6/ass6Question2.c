@@ -2,7 +2,7 @@
 #include<stdio.h>
 int main()
 {
-    int n,i,x=0;
+    int n,i,
 
       printf("Enter the no of times you want to display : ");
       scanf("%d",&n);
