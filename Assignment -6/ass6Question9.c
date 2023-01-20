@@ -2,7 +2,7 @@
 #include<stdio.h>
 int main()
 {
-    int a,b,i,x=1,n,lcm;
+    int a,b,i,x=1,n,lcm
 
       printf("Enter the two number to check : "); 
       scanf("%d%d",&a,&b);
