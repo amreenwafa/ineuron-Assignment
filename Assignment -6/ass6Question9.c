@@ -8,7 +8,7 @@ int main()
       scanf("%d%d",&a,&b);
 
         if(a<b)
-           n=b;
+           n=b
         else
           n=a;
 
