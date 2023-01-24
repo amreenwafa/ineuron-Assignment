@@ -14,7 +14,7 @@ int main()
     if(a>b)
       printf("1st no: is the greater number is %d",a);
 
-    
+    else if(b>a)
       printf("2nd one is the greater number is %d",b);
 
     else
