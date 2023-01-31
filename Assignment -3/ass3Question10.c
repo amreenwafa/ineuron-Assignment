@@ -3,7 +3,7 @@
 #include<stdio.h>
 int main()
 {
-    int cp,sp,profit,loss,p,l;
+   
 
     printf("Enter the cost price : ");
     scanf("%d",&cp);
