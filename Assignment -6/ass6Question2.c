@@ -10,7 +10,7 @@ int main()
       for(i=0;i<=n;i++)
       {
         if(i%2==0)
-        x=x+i;
+        
       }
       printf("sum =%d",x);
 return 0;
