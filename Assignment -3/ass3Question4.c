@@ -3,7 +3,7 @@ an even number or an odd number without using % operator.*/
 #include<stdio.h>
 int main()
 {
-    int a,x;
+    
 
     printf("Enter the number : ");
     scanf("%d",&a);
