@@ -1,4 +1,4 @@
-//2. Write a pr to calculate sum of first N even natural numbers
+//2. Write a pro to calculate sum of first N even natural numbers
 #include<stdio.h>
 int main()
 {
