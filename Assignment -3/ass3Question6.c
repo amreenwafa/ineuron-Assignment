@@ -3,7 +3,7 @@
 #include<stdio.h>
 int main()
 {
-    int a,b
+    int a,b;
 
     printf("Enter the number : ");
     scanf("%d",&a);
