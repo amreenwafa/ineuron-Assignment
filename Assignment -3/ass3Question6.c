@@ -8,7 +8,7 @@ int main()
     printf("Enter the number : ");
     scanf("%d",&a);
 
-    printf("Enter the number : ")
+    printf("Enter the number : ");
     scanf("%d",&b);
 
     if(a>b)
