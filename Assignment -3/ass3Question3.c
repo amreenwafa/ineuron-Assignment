@@ -5,7 +5,7 @@ int main()
 {
     
     int a,x;
-    printf("Enter the number : ");
+    printf("Enter the number : ")
     scanf("%d",&a);
     
      if(a%2==0)
