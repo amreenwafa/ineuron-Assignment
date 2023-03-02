@@ -5,7 +5,7 @@ int main()
     int a=10;
     while(a>=1)
     {
-        printf("%d \t",a)
+        printf("%d \t",a);
         a--;
     }
 return 0;
