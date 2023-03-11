@@ -6,7 +6,7 @@ int main()
     int a,x;
 
     printf("Enter the number : ");
-    scanf("%d",&a)
+    scanf("%d",&a);
     
      if((a&1)==0)
          printf("Even number ");
