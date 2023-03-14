@@ -10,5 +10,5 @@ int main()
      x=a/10;
      printf("The last digit of a given number is %d",x);
 
-return 0
+return 0;
 }
