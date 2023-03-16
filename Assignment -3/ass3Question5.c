@@ -4,7 +4,7 @@ int main()
 {
     int a;
 
-    printf("Enter the number : ")
+    printf("Enter the number : ");
     scanf("%d",&a);
     
      if((a>99) && (a<1000))
