@@ -2,7 +2,7 @@
 #include<stdio.h>
 int main()
 {
-    char str[22]
+    char str[22];
 
     printf("Enter the string : ");
     scanf("%s",&str);
