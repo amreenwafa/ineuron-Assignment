@@ -10,6 +10,6 @@ int main()
     printf("\nlength the string ");
     printf(" is %d", printf(str));
 
-return 0
+return 0;
 }
 
