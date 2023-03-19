@@ -5,7 +5,7 @@ int main()
     int a,x;
 
     printf("Enter the number : ");
-    scanf("%d",&a);
+    scanf("%d",&a)
     
      x=a/10;
      printf("The last digit of a given number is %d",x);
