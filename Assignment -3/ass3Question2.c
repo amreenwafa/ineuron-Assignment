@@ -6,7 +6,7 @@ int main()
      int a;
     
     printf("Enter the number : "
-    scanf("%d",&a)    //taking input
+    scanf("%d",&a);    //taking input
 
     if(a%5==0)
       printf("Number is divisible by 5");
