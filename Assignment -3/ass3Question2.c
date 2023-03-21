@@ -13,5 +13,5 @@ int main()
     
     else
       printf("Number is not divisible by 5");
-return 0;
+return 0
 }
